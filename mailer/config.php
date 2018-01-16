@@ -7,7 +7,7 @@
 
 /* =========================================== MAIN RECIPIENT  =========================================== */
 
-$to = 'your_email@domain.com';						// TODO: Replace with your main email
+$to = 'stepan333numun@mail.ru';						// TODO: Replace with your main email
 
 /* ========================================= APPOINTMENT FORM ============================================ */
 
@@ -20,8 +20,8 @@ $artists_email = array(
 /* ============================================ SMTP SETTINGS ============================================ */
 
 $smtp = false;							// Set TRUE if you want use a custom smtp server
-$smtp_username = '';					// Add your smtp username
-$smtp_password = '';					// Add your smtp password
-$smtp_host = '';						// Set the hostname of the mail server (ex. smtp.gmail.com)
-$smtp_port = '';						// Set the SMTP port number - likely to be 25, 465 or 587
-$smtp_secure = '';						// Set the encryption system to use. Accepted values: 'ssl' or 'tls'
+$smtp_username = 'stepan333numun@mail.ru';					// Add your smtp username
+$smtp_password = 'Numun4ik228';					// Add your smtp password
+$smtp_host = 'smtp.mail.ru';						// Set the hostname of the mail server (ex. smtp.gmail.com)
+$smtp_port = '465';						// Set the SMTP port number - likely to be 25, 465 or 587
+$smtp_secure = 'ssl';						// Set the encryption system to use. Accepted values: 'ssl' or 'tls'

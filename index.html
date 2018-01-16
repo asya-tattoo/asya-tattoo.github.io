@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="css/main.css">
-    </head>
+       
     <body class="one-page">
 
         <div class="wrapper">
@@ -30,7 +30,7 @@
                                 <li><a title="Last Works" href="#last-works">Последние работы</a></li>
                                 <li><a title="Services" href="#services">Услуги</a></li>
                                 <li><a title="Contact Us" href="#contacts">Виды работ</a></li>
-                                <li><a title="Appointment" href="#appointment"><i class="fa fa-thumb-tack"></i>Запись</a></li>
+                                
                             </ul>
                         </nav>
 
@@ -331,92 +331,7 @@
 
                 <!-- ============ Call to Action - START ============ -->
 
-                <div id="appointment" class="section cta dark">
-
-                    <h2>Вы готовы сделать тату?</h2>
-
-                    <div class="cta-info">Запишитесь на сеанс <strong>СЕЙЧАС</strong>!</div>
-
-                    <a class="btn md light btn-popup" href="#request"><i class="fa fa-thumb-tack"></i>Запись</a>
-
-                    <!-- ============ Appointment Form - START ============ -->
-
-                    <form id="request" class="contact-form popup mfp-hide" action="mailer/appointment.php" method="post">
-
-                        <div class="head"><img src="img/logo.png" alt="logo"></div>
-                        <h3 class="focus-title"><i class="fa fa-thumb-tack"></i>Запись на сеанс</h3>
-
-                        <label>
-                            <strong>Имя *</strong>
-                            <input class="required" type="text" name="first_name">
-                        </label>
-                        <label>
-                            <strong>Фамилия *</strong>
-                            <input class="required" type="text" name="last_name">
-                        </label>
-                        <label>
-                            <strong>e-mail *</strong>
-                            <input class="required" type="text" name="email">
-                        </label>
-                        <label>
-                            <strong>Телефон *</strong>
-                            <input class="required" type="text" name="phone">
-                        </label>
-                        <label>
-                            <strong>Часть тела</strong>
-                            <select name="part_body">
-                                <option value="Leg">Нога</option>
-                                <option value="Calf">Икра</option>
-                                <option value="Ankle">Лодыжка</option>
-                                <option value="Foot">Ступня</option>
-                                <option value="Arm">Рука</option>
-                                <option value="Forearm">Предплечье</option>
-                                <option value="Wrist">Запястье</option>
-                                <option value="Hand">Рукав</option>
-                                <option value="Nek">Шея</option>
-                                <option value="Head">Голова</option>
-                                <option value="Back">Спина</option>
-                                <option value="Buttocks">Ягодица</option>
-                                <option class="other" value="Other">Остальное (Ниже)</option>
-                            </select>
-                        </label>
-                        <label id="other" class="hidden-field">
-                            <strong>Другая часть тела</strong>
-                            <input type="text" name="custom">
-                        </label>
-                        <label><strong>Размер тату *</strong> (ex: 5x4)
-                            <input class="required" type="text" name="size">
-                        </label>
-                        <div class="radio label">
-                            <strong>Цвет тату</strong>
-                            <label>
-                                <input type="radio" value="Black &amp; White" name="color" checked>
-                                <span class="radio-replacer"></span>
-                                <span>Черная &amp; Цветная</span>
-                            </label>
-                            <label>
-                                <input class="required" type="radio" value="Color" name="color">
-                                <span class="radio-replacer"></span>
-                                <span>Цвет</span>
-                            </label>
-                        </div>
-                        <label><strong>Описание татуировки *</strong>
-                            <textarea class="required" name="description"></textarea>
-                        </label>
-                        <div class="radio image-radio label">
-                            
-                        <hr>
-                         <label>
-                            <input class="required" type="checkbox" name="check">
-                            <span class="checkbox-replacer"></span>
-                            <strong>Оставаться авторизованным *</strong>
-                        </label>
-                        <hr>
-                        <p>( <strong>*</strong> ) = Обязательное поле</p>
-                        <input class="submit btn md" type="submit" name="submit" value="Отправить заявку">
-                        <input type="hidden" name="form_type" value="appointment">
-                        </div>
-
+             
                     
 
                     <!-- ============ Appointment Form - END ============ -->
@@ -457,36 +372,10 @@
                 <!-- ============ Journal - END ============ -->
 
                 <!-- ============ Contact form - START ============ -->
+                
+                
 
-                <div id="contacts" class="section">
-
-                    <div class="section-title">
-                        <h2>Связаться с нами</h2>
-                    </div>
-
-                    <div class="content container">
-
-                        <form class="contact-form row" action="mailer/contact.php" method="post">
-                            <div class="col-md-6">
-                                <label><strong>ФИО *</strong>
-                                    <input class="required" type="text" name="name">
-                                </label>
-                                <label><strong>Email *</strong>
-                                    <input class="required" type="text" name="email">
-                                </label>
-                                
-                            </div>
-                            <div class="col-md-12">
-                              
-                                <p>( <strong>*</strong> ) = Обязательное поле</p>
-                                <input class="submit btn md" type="submit" name="submit" value="Отправить сообщение">
-                            </div>
-                            <input type="hidden" name="form_type" value="contact">
-                        </form>
-
-                    </div>
-
-                </div>
+                
 
                 <!-- ============ Contact form - END ============ -->
 
@@ -496,7 +385,7 @@
 
                 <!-- ============ Map - END ============ -->
 
-            </div>
+        
 
             <!-- ============ Footer - START ============ -->
 
